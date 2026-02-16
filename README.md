@@ -29,7 +29,7 @@ Dynamic Discovery: Hardware agents broadcast their available APIs (Skills) to th
 Bi-directional Flow: SSI manages Bridge Output (Commands from Brain) and Bridge Input (Real-time telemetry and context from Actuators).
 
 2.3 Heterogeneous Actuator Layer
-Definition: Swappable physical units (UAVs, UGVs, robotic appendages like auto cart, drones) that expose their low-level APIs to the SSI.
+Definition: Swappable physical units—including but not limited to aerial (UAVs), terrestrial (UGVs/Auto-Carts), and aquatic (USVs) autonomous equipment—that expose their low-level APIs to the SSI. This layer abstracts the physical constraints of any hardware operating in air, on land, or at sea, enabling seamless cross-domain mission handover.
 
 Autonomy: Actuators handle "Reflexive Control" (e.g., PID stabilization, obstacle avoidance), while the NRE handles "Strategic Control".
 
