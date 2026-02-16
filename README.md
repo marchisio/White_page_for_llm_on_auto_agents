@@ -1,7 +1,9 @@
 # White Paper: Universal Semantic Governance Framework (USGF)
 
 A Hardware-Agnostic Architecture for Autonomous Agents via Neural Reasoning Engines and Standardized Semantic Interfaces
+
 Author: marchisio on github(verified by gmail)
+
 Contact: sdusunlin@gmail.com
 
 Date: February 15, 2026
