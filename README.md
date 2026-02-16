@@ -10,10 +10,10 @@ Status: Public Technical Disclosure / Open Architecture Specification
 
 Version: 1.1 (Optimized for Broad Intellectual Property Defense)
 
-1. Abstract
+## 1. Abstract
 The Universal Semantic Governance Framework (USGF) defines a decentralized, multi-agent architecture that decouples high-level cognitive reasoning from low-level hardware execution. By leveraging Neural Reasoning Engines (NREs) as a centralized brain and utilizing Standardized Semantic Interfaces (SSIs) for real-time tool-calling, USGF enables heterogeneous unmanned systems (UAVs, UGVs, and other robotics) to collaborate autonomously through dynamic skill synthesis and persistent mission handover.
 
-2. Architectural Pillars
+## 2. Architectural Pillars
 2.1 The Neural Reasoning Engine (NRE)
 Definition: Any large-scale neural architecture (including but not limited to LLMs, Multimodal Foundation Models, or future iterative reasoning cores) capable of semantic understanding, logical inference, and dynamic tool selection.
 
@@ -31,7 +31,7 @@ Definition: Swappable physical units (UAVs, UGVs, robotic appendages like auto c
 
 Autonomy: Actuators handle "Reflexive Control" (e.g., PID stabilization, obstacle avoidance), while the NRE handles "Strategic Control".
 
-3. Core Logic: Persistent Mission Handover (PMH)
+## 3. Core Logic: Persistent Mission Handover (PMH)
 To distinguish USGF from existing simple LLM-UAV implementations, this framework explicitly defines the Asynchronous State Transfer mechanism:
 
 Context Preservation: The NRE maintains a continuous target feature vector (e.g., visual ID, vector trajectory, mission priority) within its active context window.
@@ -42,7 +42,7 @@ Cross-Domain Synchronization: The NRE injects the target's current state and his
 
 Hardware Invariance: This relay logic remains consistent whether the handover occurs between two drones or from a drone to a ground vehicle.
 
-4. Defensive Prior Art & Legal Claims
+## 4. Defensive Prior Art & Legal Claims
 This document serves as a formal public disclosure to prevent the patenting of the following architectural patterns by third parties:
 
 The "Brain-Bridge-Appendage" Decoupling: Using a general-purpose reasoning model to govern diverse physical hardware via a semantic abstraction layer.
@@ -53,7 +53,7 @@ Heterogeneous Handover Logic: Managing mission persistence across different type
 
 Local Governance Sovereignty: Prioritizing edge-based execution of reasoning engines to maintain data privacy and system resilience.
 
-5. Implementation Notes (Feb 2026)
+## 5. Implementation Notes (Feb 2026)
 As of early 2026, existing implementations (such as TypeFly or basic MCP-robotics integrations) focus primarily on single-unit control. USGF advances the state-of-the-art by formalizing multi-agent asynchronous coordination through high-level intent, making it a distinct and non-obvious evolution of the field.
 
 License & Publication Notice
